@@ -13,7 +13,13 @@ const main = () => {
   // patterns.factoryMethod.fileExporter.good();
 
   // patterns.behavioral.strategy.paymentMethods.bad();
-  patterns.behavioral.strategy.paymentMethods.good();
+  // patterns.behavioral.strategy.paymentMethods.good();
+
+  // patterns.behavioral.strategy.imageFilters.bad();
+  // patterns.behavioral.strategy.imageFilters.good();
+
+  patterns.behavioral.strategy.shipping.bad();
+  patterns.behavioral.strategy.shipping.good();
 };
 
 main();
