@@ -18,8 +18,16 @@ const main = () => {
   // patterns.behavioral.strategy.imageFilters.bad();
   // patterns.behavioral.strategy.imageFilters.good();
 
-  patterns.behavioral.strategy.shipping.bad();
-  patterns.behavioral.strategy.shipping.good();
+  // patterns.behavioral.strategy.shipping.bad();
+  // patterns.behavioral.strategy.shipping.good();
+
+  // patterns.behavioral.observer.weather.bad();
+  // patterns.behavioral.observer.weather.good();
+
+  // patterns.behavioral.observer.stock.bad();
+  // patterns.behavioral.observer.stock.good();
+
+  patterns.behavioral.observer.notification.good();
 };
 
 main();
